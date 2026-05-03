@@ -1,6 +1,6 @@
 from collections.abc import Iterable
 
-from nse_pytoolkit.protocols import SupportsKeysAndGetitem
+from .protocols import SupportsKeysAndGetitem
 
 __all__ = ["MapLike", "MapLikeDefault", "NotEmptyTuple"]
 

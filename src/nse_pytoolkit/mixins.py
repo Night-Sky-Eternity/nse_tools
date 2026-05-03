@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from collections.abc import Iterator, KeysView, Mapping
 
-from nse_pytoolkit.protocols import SupportsKeysAndGetitem
+from .protocols import SupportsKeysAndGetitem
 
 __all__ = ["MappingMixin"]
 

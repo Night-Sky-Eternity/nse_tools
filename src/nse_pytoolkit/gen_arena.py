@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 
-from nse_pytoolkit.sentinels import FREE, MISSING, FreeType
+from .sentinels import FREE, MISSING, FreeType
 
 __all__ = [
     "ArenaError",
